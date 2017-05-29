@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd" version="3.2" folio="37524946" fecha="2017-05-21T22:53:26" formaDePago="Pago en una sola exhibicion" subTotal="31.5" Moneda="MXN" total="31.5" tipoDeComprobante="ingreso" metodoDePago="efectivo" LugarExpedicion="Paraíso, Tabasco">
+  <cfdi:Emisor rfc="AAA010101AAA" nombre="PRUEBAS INTEGRACION S.A. DE C.V.">
+    <cfdi:DomicilioFiscal calle="CALLE EMISOR" noExterior="1" colonia="COL. EMISOR" localidad="MEXICO" municipio="MUN. EMISOR" estado="MEXICO" pais="MEXICO" codigoPostal="53125" />
+    <cfdi:RegimenFiscal Regimen="REGIMEN GENERAL" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="GORJ860702117" nombre="JORGE RAMÓN GÓMEZ RIVERO">
+    <cfdi:Domicilio calle="CALLE RECEPTOR" noExterior="1" noInterior="B" colonia="COL. RECEPTOR" municipio="MUN. RECEPTOR" estado="MEXICO" pais="MEXICO" codigoPostal="53100" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="3" unidad="1" noIdentificacion="LC01" descripcion="LECHE" valorUnitario="10.5" importe="31.5" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos />
+</cfdi:Comprobante>

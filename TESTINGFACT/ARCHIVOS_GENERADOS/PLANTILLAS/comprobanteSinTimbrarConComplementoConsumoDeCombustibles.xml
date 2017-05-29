@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/consumodecombustibles http://www.sat.gob.mx/sitio_internet/cfd/consumodecombustibles/consumodecombustibles.xsd" version="3.2" folio="22" fecha="2014-12-19T13:13:18" sello="d418Bt3Clsev56ueMu50Q3+IDvD2oSGPYqFUgimF3hDa6Pyp7BzHzMiZ6MhR4RN2m0XilstRf6oJxpzbXVIfTIs/6zCB9B20/1N4bnh9hRU6+v1Z0iH4rCKhopdplUmZ/mPdYapMf8/m21P2lriYSDqZlDlMRZ6witt4EoBE5f8=" formaDePago="Pago en una sola exhibicion" noCertificado="20001000000200000293" certificado="MIIE2jCCA8KgAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAyOTMwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyNjE5MjI0M1oXDTE2MTAyNjE5MjI0M1owggFTMUkwRwYDVQQDE0BBU09DSUFDSU9OIERFIEFHUklDVUxUT1JFUyBERUwgRElTVFJJVE8gREUgUklFR08gMDA0IERPTiBNQVJUSU4gMWEwXwYDVQQpE1hBU09DSUFDSU9OIERFIEFHUklDVUxUT1JFUyBERUwgRElTVFJJVE8gREUgUklFR08gMDA0IERPTiBNQVJUSU4gQ09BSFVJTEEgWSBOVUVWTyBMRU9OIEFDMUkwRwYDVQQKE0BBU09DSUFDSU9OIERFIEFHUklDVUxUT1JFUyBERUwgRElTVFJJVE8gREUgUklFR08gMDA0IERPTiBNQVJUSU4gMSUwIwYDVQQtExxBQUQ5OTA4MTRCUDcgLyBIRUdUNzYxMDAzNFMyMR4wHAYDVQQFExUgLyBIRUdUNzYxMDAzTURGUk5OMDkxETAPBgNVBAsTCFNlcnZpZG9yMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlrI9loozd+UcW7YHtqJimQjzX9wHIUcc1KZyBBB8/5fZsgZ/smWS4Sd6HnPs9GSTtnTmM4bEgx28N3ulUshaaBEtZo3tsjwkBV/yVQ3SRyMDkqBA2NEjbcum+e/MdCMHiPI1eSGHEpdESt55a0S6N24PW732Xm3ZbGgOp1tht1wIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAuoPXe+BBIrmJn+IGeI+m97OlP3RC4Ct3amjGmZICbvhI9BTBLCL/PzQjjWBwU0MG8uK6e/gcB9f+klPiXhQTeI1YKzFtWrzctpNEJYo0KXMgvDiputKphQ324dP0nzkKUfXlRIzScJJCSgRw9ZifKWN0D9qTdkNkjk83ToPgwnldg5lzU62woXo4AKbcuabAYOVoC7owM5bfNuWJe566UzD6i5PFY15jYMzi1+ICriDItCv3S+JdqyrBrX3RloZhdyXqs2Htxfw4b1OcYboPCu4+9qM3OV02wyGKlGQMhfrXNwYyj8huxS1pHghEROM2Zs0paZUOy+6ajM+Xh0LX2w==" subTotal="873.00" Moneda="MXN" total="1012.68" tipoDeComprobante="ingreso" metodoDePago="Efectivo" LugarExpedicion="Villa del Carbón México">
+  <cfdi:Emisor rfc="AAD990814BP7" nombre="ASOCIACION DE AGRICULTORES DEL DISTRITO DE RIEGO 004 DON MARTIN">
+    <cfdi:DomicilioFiscal calle="CALLE" noExterior="4334" noInterior="B" colonia="Villa del Carbón" municipio="Villa del Carbón" estado="México" pais="México" codigoPostal="54300" />
+    <cfdi:RegimenFiscal Regimen="Arrendamiento de bienes inmuebles" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="HUI0803124A5" nombre="HUGO SÁNCHEZ DEL REAL">
+    <cfdi:Domicilio calle="CALLE MADRID" noExterior="5" colonia="IGNACIO MORENO" municipio="LUNARES" estado="QUERÉTARO" pais="MÉXICO" codigoPostal="67800" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1" unidad="NA" noIdentificacion="MDP" descripcion="MONEDERO DE PRUEBA" valorUnitario="873" importe="873" />
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="0" totalImpuestosTrasladados="139.68">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="139.68" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+  <cfdi:Complemento>
+    <consumodecombustibles:ConsumoDeCombustibles xmlns:consumodecombustibles="http://www.sat.gob.mx/consumodecombustibles" version="1.0" tipoOperacion="monedero electrónico" numeroDeCuenta="00084030348438" total="1012.68">
+      <consumodecombustibles:Conceptos>
+        <consumodecombustibles:ConceptoConsumoDeCombustibles identificador="ID" fecha="1997-12-19T00:00:00" rfc="CBS090807TR2" claveEstacion="CVE-EST-1" cantidad="1" nombreCombustible="DIESEL" folioOperacion="F-123" valorUnitario="873" importe="873">
+          <consumodecombustibles:Determinados>
+            <consumodecombustibles:Determinado impuesto="IVA" tasa="16" importe="16" />
+          </consumodecombustibles:Determinados>
+        </consumodecombustibles:ConceptoConsumoDeCombustibles>
+      </consumodecombustibles:Conceptos>
+    </consumodecombustibles:ConsumoDeCombustibles>
+  </cfdi:Complemento>
+</cfdi:Comprobante>

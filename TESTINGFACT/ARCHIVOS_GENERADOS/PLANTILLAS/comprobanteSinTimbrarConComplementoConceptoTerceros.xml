@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cfdi:Comprobante xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv32.xsd http://www.sat.gob.mx/terceros http://www.sat.gob.mx/sitio_internet/cfd/terceros/terceros11.xsd" version="3.2" folio="38" fecha="2014-12-19T14:53:03" sello="nG734vJDC4zJ652UaniNAYLx6/PcIqp7hqTwvU0kKqlpAKH2yp4il+p9nXckMQwwhrPCsDfRDK+zzZgff24WLvoDe+cAKubHdTUkdbbtxAhUt4xfDtLKtbtgYjDBbRFbp9pZsxCbUlq1F7dBEE+GFPTcqRPEjaxaDK53VJIlwlY=" formaDePago="Pago en una sola exhibicion" noCertificado="20001000000200000293" certificado="MIIE2jCCA8KgAwIBAgIUMjAwMDEwMDAwMDAyMDAwMDAyOTMwDQYJKoZIhvcNAQEFBQAwggFcMRowGAYDVQQDDBFBLkMuIDIgZGUgcHJ1ZWJhczEvMC0GA1UECgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNVBAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNpw7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEmMCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDESMBAGA1UEBwwJQ295b2Fjw6FuMTQwMgYJKoZIhvcNAQkCDCVSZXNwb25zYWJsZTogQXJhY2VsaSBHYW5kYXJhIEJhdXRpc3RhMB4XDTEyMTAyNjE5MjI0M1oXDTE2MTAyNjE5MjI0M1owggFTMUkwRwYDVQQDE0BBU09DSUFDSU9OIERFIEFHUklDVUxUT1JFUyBERUwgRElTVFJJVE8gREUgUklFR08gMDA0IERPTiBNQVJUSU4gMWEwXwYDVQQpE1hBU09DSUFDSU9OIERFIEFHUklDVUxUT1JFUyBERUwgRElTVFJJVE8gREUgUklFR08gMDA0IERPTiBNQVJUSU4gQ09BSFVJTEEgWSBOVUVWTyBMRU9OIEFDMUkwRwYDVQQKE0BBU09DSUFDSU9OIERFIEFHUklDVUxUT1JFUyBERUwgRElTVFJJVE8gREUgUklFR08gMDA0IERPTiBNQVJUSU4gMSUwIwYDVQQtExxBQUQ5OTA4MTRCUDcgLyBIRUdUNzYxMDAzNFMyMR4wHAYDVQQFExUgLyBIRUdUNzYxMDAzTURGUk5OMDkxETAPBgNVBAsTCFNlcnZpZG9yMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDlrI9loozd+UcW7YHtqJimQjzX9wHIUcc1KZyBBB8/5fZsgZ/smWS4Sd6HnPs9GSTtnTmM4bEgx28N3ulUshaaBEtZo3tsjwkBV/yVQ3SRyMDkqBA2NEjbcum+e/MdCMHiPI1eSGHEpdESt55a0S6N24PW732Xm3ZbGgOp1tht1wIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQUFAAOCAQEAuoPXe+BBIrmJn+IGeI+m97OlP3RC4Ct3amjGmZICbvhI9BTBLCL/PzQjjWBwU0MG8uK6e/gcB9f+klPiXhQTeI1YKzFtWrzctpNEJYo0KXMgvDiputKphQ324dP0nzkKUfXlRIzScJJCSgRw9ZifKWN0D9qTdkNkjk83ToPgwnldg5lzU62woXo4AKbcuabAYOVoC7owM5bfNuWJe566UzD6i5PFY15jYMzi1+ICriDItCv3S+JdqyrBrX3RloZhdyXqs2Htxfw4b1OcYboPCu4+9qM3OV02wyGKlGQMhfrXNwYyj8huxS1pHghEROM2Zs0paZUOy+6ajM+Xh0LX2w==" subTotal="100.00" Moneda="MXN" total="116.00" tipoDeComprobante="ingreso" metodoDePago="Transferencia bancaria" LugarExpedicion="Villa del Carbón México">
+  <cfdi:Emisor rfc="AAD990814BP7" nombre="ASOCIACION DE AGRICULTORES DEL DISTRITO DE RIEGO 004 DON MARTIN">
+    <cfdi:DomicilioFiscal calle="CALLE" noExterior="4334" noInterior="B" colonia="Villa del Carbón" municipio="Villa del Carbón" estado="México" pais="México" codigoPostal="54300" />
+    <cfdi:RegimenFiscal Regimen="Arrendamiento de bienes inmuebles" />
+  </cfdi:Emisor>
+  <cfdi:Receptor rfc="JUY0904057R4" nombre="JUAN PÉREZ DEL HUERTO">
+    <cfdi:Domicilio calle="AVENIDA LOPEZ MATEOS" noExterior="5677" colonia="VALLENCILLO" municipio="VALLENCILLO" estado="NUEVO LEÓN" pais="MÉXICO" codigoPostal="65400" />
+  </cfdi:Receptor>
+  <cfdi:Conceptos>
+    <cfdi:Concepto cantidad="1" unidad="NA" noIdentificacion="PC" descripcion="PRUEBA CFDI NORMAL" valorUnitario="100" importe="100">
+      <cfdi:ComplementoConcepto>
+        <terceros:PorCuentadeTerceros xmlns:terceros="http://www.sat.gob.mx/terceros" version="1.1" rfc="AAA090909AAA" nombre="NOMBRE">
+          <terceros:InformacionFiscalTercero calle="CALLE" noExterior="12" noInterior="B" colonia="COLONIA" localidad="LOCALIDAD" referencia="REFERENCIA" municipio="MUNICIPIO" estado="ESTADO" pais="PAIS" codigoPostal="53200" />
+          <terceros:Parte cantidad="1" unidad="NA" noIdentificacion="PC" descripcion="PRUEBA CFDI NORMAL" valorUnitario="100" importe="100" />
+          <terceros:Impuestos>
+            <terceros:Traslados>
+              <terceros:Traslado impuesto="IVA" tasa="16.00" importe="16.00" />
+            </terceros:Traslados>
+          </terceros:Impuestos>
+        </terceros:PorCuentadeTerceros>
+      </cfdi:ComplementoConcepto>
+    </cfdi:Concepto>
+  </cfdi:Conceptos>
+  <cfdi:Impuestos totalImpuestosRetenidos="0" totalImpuestosTrasladados="16.00">
+    <cfdi:Traslados>
+      <cfdi:Traslado impuesto="IVA" tasa="16.00" importe="16.00" />
+    </cfdi:Traslados>
+  </cfdi:Impuestos>
+</cfdi:Comprobante>

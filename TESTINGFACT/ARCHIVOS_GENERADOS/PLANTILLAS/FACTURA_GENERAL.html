@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Fáctura</title>
+</head>
+<body>
+    <div style="width:1000px; border-style:solid; border-width:1px; border-color:black;">
+        <table style="width:100%;">
+            <tr>
+                <td style="width:33%"></td>
+                <td style="text-align:center;width:33%;font-size:13px;">
+                    <div><span style="font-weight:900;">RFC:</span>XXXXXXXXXXXX</div>
+                    <div><span style="font-weight:900;">RAZÓN SOCIAL:</span> XXXXXXXX XXXXXXXXXX XXXXXXXXX xXXXXXXXXXx</div>
+                    <div>@DIRECCION</div>
+                    <div>@DIRECCION2</div>
+                    <div>@CODIGOPOSTAL</div>
+                </td>
+                <td style="text-align:center;width:10%">
+                <td style="text-align:center;width:24%;">
+                    <div style="font-size:13px;">
+                        COMPROBANTE FISCAL
+                    </div>
+                    <div style="background-color: #0040FF;color: white;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px;">
+                        FÁCTURA
+                    </div>
+                    <br />
+                    <div style="font-size:10px;color:#0040FF;font-weight:900;padding:5px;">
+                        Folio Fiscal
+                    </div>
+                    <div style="font-size:10px;font-weight:900;">
+                        @FOLIOFISCAL
+                    </div>
+                    <div style="font-size:10px;color:#0040FF;font-weight:900;padding:5px;">
+                        No. de Serie del Certificado del SAT
+                    </div>
+                    <div style="font-size:10px;font-weight:900;">
+                        @NUMERODECRTIFICADOSAT
+                    </div>
+                    <div style="font-size:10px;color:#0040FF;font-weight:900;padding:5px;">
+                        Fecha y hora de certificación
+                    </div>
+                    <div style="font-size:10px;font-weight:900;">
+                        @FECHADECRTIFICACIÓN
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <br />
+        <br />
+        <div style="background-color: #0040FF;color: white;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px; text-align:center; margin:5px;">
+            FACTURAR A:
+        </div>
+        <div style="margin:5px;">
+            <table style="width:100%;">
+                <tr>
+                    <td style="width:15%;color:#0040FF;font-weight:900;padding:5px;font-size:10px;">
+                        RAZÓN SOCIAL:
+                    </td>
+                    <td style="width:55%;font-weight:900;padding:5px;font-size:10px;">
+                        @RAZONSOCIAL
+                    </td>
+                    <td style="width:15%;color:#0040FF;font-weight:900;padding:5px;font-size:10px;">
+                        RFC:
+                    </td>
+                    <td style="width:15%;font-weight:900;padding:5px;font-size:10px;">
+                        @RFC
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:15%;color:#0040FF;font-weight:900;padding:5px;font-size:10px;">
+                        DOMICILIO:
+                    </td>
+                    <td style="width:85%;font-weight:900;padding:5px;font-size:10px;" colspan="3">
+                        @DOMICILIOFISCAL
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width:15%;color:#0040FF;font-weight:900;padding:5px;font-size:10px;">
+                        CIUDAD:
+                    </td>
+                    <td style="width:55%;font-weight:900;padding:5px;font-size:10px;">
+                        @CIUDAD_DELEGACIÓN_MUNICIPIO
+                    </td>
+                    <td style="width:15%;color:#0040FF;font-weight:900;padding:5px;font-size:10px;">
+                        CP:
+                    </td>
+                    <td style="width:15%;font-weight:900;padding:5px;font-size:10px;">
+                        @CP
+                    </td>
+                </tr>
+            </table>
+            <br />
+        </div>
+        <div style="width:1000px;margin:5px;">
+            <table style="width:100%;">
+                <thead>
+                    <tr>
+                        <td style="width:100px; text-align:center;">
+                            <div style="width:100%; background-color: #0040FF;color: white;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px;">
+                                CLAVE
+                            </div>
+                        </td>
+                        <td style="width:100px; text-align:center;">
+                            <div style="width:100%; background-color: #0040FF;color: white;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px;">
+                                CANTIDAD
+                            </div>
+                        </td>
+                        <td style="width:100px; text-align:center;">
+                            <div style="width:100%; background-color: #0040FF;color: white;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px;">
+                                UNIDAD
+                            </div>
+                        </td>
+                        <td style="width:400px; text-align:center;">
+                            <div style="width:100%; background-color: #0040FF;color: white;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px;">
+                                DESCRIPCIÓN
+                            </div>
+                        </td>
+                        <td style="width:150px; text-align:center;">
+                            <div style="width:100%; background-color: #0040FF;color: white;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px;">
+                                PRECIO UNITARIO
+                            </div>
+                        </td>
+                        <td style="width:150px; text-align:center;">
+                            <div style="width:85%; background-color: #0040FF;color: white;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px;">
+                                IMPORTE
+                            </div>
+                        </td>
+                    <tr>
+                </thead>
+                <tbody>
+                    @DESGLOCE
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4"></td>
+                        <td style="font-size:10px;color:#0040FF;font-weight:900;padding:5px;">
+                            SUBTOTAL
+                        </td>
+                        <td style="font-size:10px;">
+                            @SUBTOTAL
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"></td>
+                        <td style="font-size:10px;color:#0040FF;font-weight:900;padding:5px;">
+                            IVA 16.0%
+                        </td>
+                        <td style="font-size:10px;">
+                            @IVA
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"></td>
+                        <td style="font-size:10px;color:#0040FF;font-weight:900;padding:5px;">
+                            IEPS
+                        </td>
+                        <td style="font-size:10px;">
+                            @IEPS
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="4"></td>
+                        <td style="font-size:10px;color:#0040FF;font-weight:900;padding:5px;">
+                            TOTAL
+                        </td>
+                        <td style="font-size:10px;">
+                            @TOTAL
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <br />
+        <br />
+        <div stye="margin:5px;">
+            <table stye="width:100%;">
+                <tr>
+                    <td>
+                        <div style="width:750px;background-color: #0040FF;color: white;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px; text-align:center; margin:5px;">
+                            SELLO DIGITAL DEL EMISOR
+                        </div>
+                        <div style="width:750px;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px; text-align:center; margin:5px; text-align:c">
+                            @SELLODIGITALEMISOR
+                        </div>
+                        <div style="width:750px;background-color: #0040FF;color: white;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px; text-align:center; margin:5px;">
+                            SELLO DIGITAL DEL SAT
+                        </div>
+                        <div style="width:750px;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px; text-align:center; margin:5px;">
+                            @SELLODIGITALSAT
+                        </div>
+                        <div style="width:750px;background-color: #0040FF;color: white;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px; text-align:center; margin:5px;">
+                            CADENA ORIGINAL DEL COMPLEMENTO DE CERTIFICACION DIGITAL DEL SAT
+                        </div>
+                        <div style="width:750px;font-weight: 900;border-radius: 15px;font-size: 13px; padding:3px; text-align:center; margin:5px;">
+                            @CADENAORIGINALCOMPLEMENTO
+                        </div>
+                    <td>
+                    <td>
+                        <div style="width:200px; height:200px; border-style:solid;border-width:1px;border-color:black;">
+
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

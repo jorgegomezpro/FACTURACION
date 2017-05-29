@@ -1,0 +1,137 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="TESTINGFACT.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <style>
+        body {
+            padding: 0px;
+        }
+    </style>
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+
+        <div>
+
+            <table style="width: 100%; background-color: #c3cdd4;">
+                <tr>
+                    <td>
+                        <asp:Image ID="Image1" runat="server" ImageUrl="~/Content/head_almacen1.png" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;
+                    <br />
+                        <div style="background-color: #5FAAD2; border-radius: 6px; width: 190px; height: 40px; padding: 6px; font-size: 11px; font-family: Arial; float: left; margin-left: 8px; cursor:pointer;" onclick="location.href='/ALTA_ARTICULO';">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="padding-left: 5px; padding-right: 5px;">
+                                        <span style="background-image: url('Content/ico_alta.png'); width: 25px; height: 25px; display: inline-block; line-height: 1;"></span>
+                                    </td>
+                                    <td style="width: 100%;">
+                                        <div style="width: 100%; text-align: center;">
+                                            DAR DE ALTA<br />
+                                            ARTÍCULOS O SERVICIOS
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div style="background-color: #5FAAD2; border-radius: 6px; width: 160px; height: 40px; padding: 6px; font-size: 11px; font-family: Arial; float: left; margin-left: 8px; cursor:pointer;" onclick="location.href='/ALTA_CLIENTE';">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="padding-left: 5px; padding-right: 5px;">
+                                        <span style="background-image: url('Content/ico_alta.png'); width: 25px; height: 25px; display: inline-block; line-height: 1;"></span>
+                                    </td>
+                                    <td style="width: 100%;">
+                                        <div style="width: 100%; text-align: center;">
+                                            DAR DE ALTA<br />
+                                            CLIENTES
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div style="background-color: #5FAAD2; border-radius: 6px; width: 160px; height: 40px; padding: 6px; font-size: 11px; font-family: Arial; float: left; margin-left: 8px; cursor:pointer;" onclick="location.href='/GENERAR_FACTURA';">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="padding-left: 5px; padding-right: 5px;">
+                                        <span style="background-image: url('Content/ico_alta.png'); width: 25px; height: 25px; display: inline-block; line-height: 1;"></span>
+                                    </td>
+                                    <td style="width: 100%;">
+                                        <div style="width: 100%; text-align: center;">
+                                            GENERAR NOTA<br />
+                                            DE VENTA
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div style="background-color: #5FAAD2; border-radius: 6px; width: 160px; height: 40px; padding: 6px; font-size: 11px; font-family: Arial; float: left; margin-left: 8px; cursor:pointer;" onclick="location.href='/GENERAR_FACTURA';">
+                            <table style="width: 100%;">
+                                <tr>
+                                    <td style="padding-left: 5px; padding-right: 5px;">
+                                        <span style="background-image: url('Content/ico_alta.png'); width: 25px; height: 25px; display: inline-block; line-height: 1;"></span>
+                                    </td>
+                                    <td style="width: 100%;">
+                                        <div style="width: 100%; text-align: center;">
+                                            VENTAS<br />
+                                            DIARIAS
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        &nbsp; &nbsp;&nbsp;&nbsp;
+                    <br />
+                        <br />
+                        <div style="margin-top: 10px;">
+                            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </div>
+                        <br />
+                        &nbsp;&nbsp; &nbsp;&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+            </table>
+
+        </div>
+    </form>
+</body>
+</html>
